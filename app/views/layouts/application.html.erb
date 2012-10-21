@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MsgLab8ball</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/css/bootstrap-combined.min.css" rel="stylesheet">
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.1.1/js/bootstrap.min.js"></script>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<div class="container">
+		<div class="row-fluid">
+			<div class="span12">
+
+				<%= yield %>
+			</div>
+		</div>
+		<p id="debug" style="color:#000;"></p>
+	</div>
+
+</body>
+</html>
