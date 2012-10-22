@@ -24,17 +24,11 @@ body {
 
 }
 
-.ball {
-	position: absolute;
-	z-index: 1;
-	background-repeat: no-repeat;
-	background-size: 100%;
 
-}
 
 #messageContainer {
 	position: absolute;
-	z-index: -2;
+	z-index: 1;
 	background-image: url(/assets/triangle3.png);
 	background-repeat: no-repeat;
 	width: 160px;
@@ -51,6 +45,13 @@ body {
 	text-align: center;
 	width: 120px;
 	color: #fff;
+
+}
+.ball {
+	position: absolute;
+	z-index: -999;
+	background-repeat: no-repeat;
+	background-size: 100%;
 
 }
 
